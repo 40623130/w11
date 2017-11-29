@@ -9,16 +9,29 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20171123101339.1"><vh>@settings</vh>
-<v t="leo.20171123101339.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
-<v t="leo.20171123101339.3"><vh>@string initial_split_orientation = horizontal</vh></v>
+<v t="leo.20171129235822.2" a="E"><vh>@settings</vh>
+<v t="leo.20171130001307.1"><vh>@data qt-gui-plugin-style-sheet</vh></v>
+<v t="leo.20171130001309.1"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20171123101328.2"><vh>NewHeadline</vh></v>
+<v t="leo.20171129235845.1" a="E"><vh>有關本專案</vh>
+<v t="leo.20171129235953.1"><vh>PyQt5 官方程式碼</vh></v>
+</v>
+<v t="leo.20171129235851.1"><vh>目錄</vh></v>
 </vnodes>
 <tnodes>
-<t tx="leo.20171123101328.2"></t>
-<t tx="leo.20171123101339.1"></t>
-<t tx="leo.20171123101339.2">QTreeWidget {
+<t tx="leo.20171129235822.2"></t>
+<t tx="leo.20171129235845.1">這是一個用於 2017 Fall 計算機程式用的 demo 專案
+
+主倉儲位於 Github, 用來展示如何透過協同開發普通的計算機視窗程式
+
+此倉儲存在 Github 的 gh-pages 分支, 因為希望能夠同時利用網際投影片與網際網誌展示相關資料</t>
+<t tx="leo.20171129235851.1">users 為各用戶存各自的 .leo 檔案專用
+
+eric6_project 存放計算機專案程式
+
+其他目錄將會配合 Fossil SCM 中的 reveal 簡報與 Pelican 網誌, 隨後將會加入</t>
+<t tx="leo.20171129235953.1">存在 eric6_project 目錄中的 ref.py, 主要用於開發過程中的變數名稱參照</t>
+<t tx="leo.20171130001307.1">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
     background-color: #ffffec; /* Leo's traditional tree color */
     selection-color: black; /* was white */
@@ -91,7 +104,7 @@ QLineEdit#editorLabel {
     border: 2px;
     margin: 2px;
 }</t>
-<t tx="leo.20171123101339.3">horizontal: body pane to the left
+<t tx="leo.20171130001309.1">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 </tnodes>
 </leo_file>
